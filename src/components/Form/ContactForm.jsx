@@ -4,8 +4,7 @@ import { nanoid } from 'nanoid';
 import { useId } from 'react';
 import css from './ContactForm.module.css'
 import { useDispatch } from 'react-redux';
-import { addContact } from '../../redux/contacsSlice';
-
+import { addContact } from '../../redux/operations';
 const ContactFormSchema = Yup.object().shape({
   name: Yup.string()
     .min(3, 'Too Short!')
