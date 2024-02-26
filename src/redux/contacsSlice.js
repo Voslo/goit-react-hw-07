@@ -12,7 +12,7 @@ const handleReject = (state, action) => {
 }
 
 const contactsSlice = createSlice({
-    name: 'contacts',
+    name: 'tasks',
     initialState: {
             items: [],
             loading: false,
